@@ -8,7 +8,7 @@ import (
 )
 
 var (
-	disallowedCharacter      = regexp.MustCompile(`[^\w\-.]`)
+	disallowedCharacter      = regexp.MustCompile(`[^\w\-]`)
 	consecutivePeriodsDashes = regexp.MustCompile(`[\-.]{2,}`)
 	sequencesToTrim          = regexp.MustCompile(`(^[\-.])|(\.$)|`)
 )
